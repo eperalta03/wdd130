@@ -1,0 +1,47 @@
+:root {
+    --primary-color: #8ECAE6;
+    --secondary-color: #219EBC;
+    --accent-color: #023047;
+    --accent-color2: #FFB703;
+    --accent-color3: #FB8500;
+}
+
+h1 {
+    text-align: center;
+	font-size: 1.5rem;
+    padding: 10px;
+    position: absolute;
+}
+
+h2 {
+    text-align: center;
+	font-size: 1rem;
+    padding: 10px;
+}
+
+p {
+    padding: 10px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.hero {
+    position: relative;
+}
+
+.hero img {
+    display: block;
+    width: 100px;
+    height: auto;
+}
+
+article {
+    position: absolute;
+    background-color: #8ECAE6;
+}
+
+article img {
+    float: right;
+}
