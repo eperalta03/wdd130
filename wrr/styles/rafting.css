@@ -18,7 +18,7 @@ h1, h2 {
 }
 
 header img {
-    width: 80px;
+    width: 50px;    
 }
 
 header nav {
@@ -31,41 +31,59 @@ header nav a {
     padding: 5px;
 }
 
-.hero { 
-    background-position: center;
-    padding: 100px 0;
-    text-align: center;
+main {
+    position: relative;
 }
 
-.hero h1 {
-    font-size: 3rem;
-    margin-bottom: 15px; 
-     
-}
-
-.hero img {
-    
-    background-position: center;
-}
-
-.hero p {
-    font-size: 1.1rem; 
-    margin: 0 auto;   
-}
-
-article {
-    
-    background-color: #8ECAE6;
-}
-
-
- article img {
+.hero {
+    position: relative;
+    width: 100%;
+    height: 400px; 
+  }
+  
+  
+  .hero img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+  }
+  
+  
+  .hero h1 {
+    position: absolute;
+    top: 10%;
+    left: 35%;
+    color: rgb(10, 7, 7);
+    font-size: 2.5rem;
+    padding: 10px 20px;
+    background-color: rgb(33, 158, 188, 0.3);
+  }
+  
+  
+  article {
+    position: absolute;
+    bottom: 20%;
+    left: 15%;
+    width: 75%;
+    background-color: rgba(142, 202, 230, 0.5);
+    padding: 15px; 
+  }
+  
+  
+  .hero article img {
     float: right;
-    
- }
+    margin-left: 15px;
+    width: 100px; 
+    height: auto;
+  }  
+
+
+
 section {
     margin: 50px 0;
     padding: 20px;
+    
 }
 
 section h2 {
