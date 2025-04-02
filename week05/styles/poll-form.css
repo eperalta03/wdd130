@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1rem;
+    color: black;
+    background-color: white;
+}
+
+header {
+    text-align: center;
+    padding: 10px;
+}
+
+form {
+    width: 700px;
+    height: auto;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid black;
+    border-radius: 0.5rem;
+    background-color: rgb(202, 200, 200);
+    display: grid;
+}
+
+legend {
+    font-size: 1rem;
+    color: rgb(67, 67, 240);
+}
+
+fieldset {
+    display: grid;
+    grid-gap: .5rem;
+    border: 1px solid rgb(0, 0, 0, 0.5);
+    padding: 15px;
+}
+
+label{
+    padding-right: 1rem;
+}
+
+input, select, textarea {
+    padding: 0.5rem;
+    font-size: 1rem;
+}
+
+input[type="checkbox"] {
+    width: 22px;
+    height: 22px;
+    vertical-align: bottom;
+}
+
+button {
+    margin: 15px;
+    background-color: navy;
+    color: white;
+    border: 1px solid black;
+    padding: 1rem;
+    font-size: 1rem;
+}
+
+button.hover {
+    background: darkgreen;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    color: lightslategray;
+    margin: 10px;
+    border-top: 1px solid rgb(119, 136, 153);
+}
+ .form-item {
+    display: grid;
+    align-items: center;
+ }
+
+ .column1 {
+    grid-template-columns: 2fr 1fr;
+    margin: 5px;
+    align-items: space-around;
+ }
+
+
+ .colum2 {
+    grid-template-columns: 1fr 2fr;
+ }
