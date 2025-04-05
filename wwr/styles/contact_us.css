@@ -1,0 +1,197 @@
+:root {
+    --primary-color: #8ECAE6;
+    --secondary-color: #219EBC;
+    --accent-color: #023047;
+    --accent-color2: #FFB703;
+    --accent-color3: #FB8500;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1, h2 {
+    padding: 10px 0;
+    text-align: center;    
+}
+
+header {
+    margin: 10px;
+    border: 1px solid rgb(251, 133, 0, 0.5);
+    background-color: rgb(255, 183, 3, 0.3);
+    display: grid;
+    grid-template-columns: 25px 25px 25px 25px;
+
+}
+
+header img {
+    width: 100px;   
+    text-align: justify;
+    padding: 10px;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+}
+
+header nav {
+    grid-column: 5;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+header nav a {
+    color: black;
+    text-decoration: none;
+    padding: 10px;
+    font-size: larger;
+    border: 1px solid var(--accent-color);
+    background-color:rgb(251, 133, 0, 0.5);
+}
+
+div {
+    display: grid;
+    grid-template-columns: 1f  1f 1f;   
+}
+
+.h1 {
+    grid-column: 1/4;
+    justify-self: center;
+}
+
+.contact {
+    padding: 20px;
+    grid-column: 1/2;
+}
+
+.contact p {
+    padding-top: 5px;    
+}
+
+.contact h2 {
+    text-align: left;
+}
+
+.form {
+    grid-column: 2/4;
+    padding-top: 50px;
+}
+
+form {
+    width: 700px;
+    height: auto;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid rgb(0, 0, 0, .5);
+    border-radius: 0.5rem;
+    background-color:rgb(142, 202, 230, .1);
+    display: grid;
+}
+
+legend {
+    font-size: 1.5rem;
+    color:#023047;
+    text-align: center;
+}
+
+fieldset {
+    display: grid;
+    grid-gap: .5rem;
+    border: 1px solid rgb(0, 0, 0, 0.5);
+    padding: 15px;
+}
+
+label{
+    padding-right: 1rem;
+}
+
+
+.purpose p {
+    font-size: 20px;
+    font-style: bold;
+}
+
+input, select, textarea {
+    padding: 0.5rem;
+    font-size: 1rem;
+}
+
+input[type="checkbox"] {
+    width: 22px;
+    height: 22px;
+    vertical-align: bottom;
+}
+
+button {
+    margin: 15px;
+    background-color: navy;
+    color: white;
+    border: 1px solid black;
+    padding: 1rem;
+    font-size: 1rem;
+}
+
+button.hover {
+    background: darkgreen;
+}
+
+
+.teamwork {
+    padding-top: 20px;
+    display: grid;
+    grid-template-columns: 1f 1f 1f 1f 1f;
+    justify-items: center;
+    align-items: center;
+}
+
+.teamwork h2 {
+   grid-column: 1/6;
+   justify-self: center;
+}
+
+.teamwork div{
+    grid-column: 1/3;
+}
+
+.teamwork img{
+    width: 200px;
+    height: 200px;
+    padding: 10px;
+}
+
+.teamwork figcaption {
+    text-align: center;
+    padding: 5px;
+}
+footer {  
+    padding: 20px;
+    border: 1px solid rgb(251, 133, 0, 0.5);
+    background-color: rgb(255, 183, 3, 0.3);
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+    align-items: center;
+}
+
+footer p {
+    margin-bottom: 15px;
+    grid-column: 2/3;
+
+}
+
+footer nav a {
+    text-decoration: none;  
+}
+
+footer nav a img {
+    width: 30px;
+    height: 30px; 
+
+  
+}
+
+
+
